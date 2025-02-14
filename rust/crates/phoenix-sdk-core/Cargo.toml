@@ -15,7 +15,7 @@ solana-sdk = { workspace = true }
 num-traits = { workspace = true }
 rust_decimal = { workspace = true }
 rust_decimal_macros = { workspace = true }
-itertools = "0.10.5"
+itertools = "*"
 rand = { workspace = true }
 anyhow = { workspace = true }
 ellipsis-transaction-utils = { workspace = true }

@@ -20,15 +20,15 @@ solana-sdk = { workspace = true }
 solana-client = { workspace = true }
 tokio = { workspace = true }
 ellipsis-client = { workspace = true }
-futures = "0.3.21"
-solana-transaction-status = ">=1.14.12, <1.19"
-async-trait = "0.1.52"
-coinbase-pro-rs = "0.8.1"
+futures = "*"
+solana-transaction-status = "*"
+async-trait = "*"
+coinbase-pro-rs = "*"
 num-traits = { workspace = true }
 rust_decimal = { workspace = true }
 rust_decimal_macros = { workspace = true }
 bytemuck = { workspace = true }
-itertools = "0.10.5"
-phoenix-sdk-core = { version = "0.8.0", path = "../phoenix-sdk-core" }
+itertools = "*"
+phoenix-sdk-core = { version = "*", path = "../phoenix-sdk-core" }
 serde = { workspace = true }
 
