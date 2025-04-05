@@ -13,7 +13,6 @@ overflow-checks = true
 [workspace.dependencies]
 spl-token = { version = "*", features = ["no-entrypoint"] }
 anyhow = "*" 
-solana-account-decoder = "*"
 solana-sdk = "*"
 solana-client = "*"
 borsh = "*"
@@ -22,11 +21,8 @@ ellipsis-client = {git = "https://github.com/florian-klein/ellipsis-client.git"}
 ellipsis-transaction-utils =  {git = "https://github.com/florian-klein/ellipsis-client.git"}
 phoenix-common = {git = "https://github.com/florian-klein/phoenix-v1.git", branch = "crate"}
 tokio = { version = "*", features = ["full"] }
-clap = { version = "*", features = ["derive"] }
-shellexpand = "*"
 num-traits = "*"
 rust_decimal = "*"
-rust_decimal_macros = "*"
 itertools = "*"
 bytemuck = "*"
 serde = "*"

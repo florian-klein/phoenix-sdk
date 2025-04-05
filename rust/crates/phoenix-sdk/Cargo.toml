@@ -12,23 +12,12 @@ license = "MIT"
 anyhow = { workspace = true }
 phoenix-common = { workspace = true }
 phoenix-seat-manager-common = { workspace = true }
-clap = { workspace = true }
-borsh = { workspace = true }
-rand = { workspace = true }
 spl-token = { workspace = true }
 solana-sdk = { workspace = true }
 solana-client = { workspace = true }
 tokio = { workspace = true }
 ellipsis-client = { workspace = true }
-futures = "*"
-solana-transaction-status = "*"
-async-trait = "*"
-coinbase-pro-rs = "*"
-num-traits = { workspace = true }
-rust_decimal = { workspace = true }
-rust_decimal_macros = { workspace = true }
 bytemuck = { workspace = true }
-itertools = "*"
 phoenix-sdk-core = { version = "*", path = "../phoenix-sdk-core" }
 serde = { workspace = true }
 
